@@ -1,0 +1,14 @@
+# Example File
+!example_file/blank_white.png
+
+# Image
+*.png
+*.jpg
+*.jpeg
+*.raw
+*.webp
+
+# Video
+*.mp4
+*.webm
+
