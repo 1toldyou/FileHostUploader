@@ -22,6 +22,7 @@ def _base_upload(file_name: str, file_body: bytes, file_type: str, expiration_ti
         return None
 
 
+# TODO: check file size
 def upload(file_name: str, file: Union[bytes, str], file_type: str = None, expiration_time: str = "1h", cookie: str = "", client: requests.Session = requests.Session()):
     if isinstance(file, bytes):
         file_body = file
