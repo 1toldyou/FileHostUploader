@@ -12,3 +12,6 @@
 *.mp4
 *.webm
 
+# token
+*.token.json
+
