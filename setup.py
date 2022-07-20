@@ -13,8 +13,8 @@ setup(
     description="all-in-one tool to upload file to various free or low-cost file sharing platform",
     packages=[
         "file_host_uploader"
-        # "file_host_uploader.util",
-        # "file_host_uploader.synchronous"
+        "file_host_uploader.util",
+        "file_host_uploader.synchronous"
     ],
     install_requires=[
         "requests",
