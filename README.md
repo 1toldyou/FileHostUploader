@@ -22,4 +22,4 @@ and it might want to install some dependencies that conflict with other packages
         python -m pip install git+https://github.com/1toldyou/FileHostUploader.git
 abd add the following to your `requirements.txt`
 
-        git+https://github.com/1toldyou/FileHostUploader.git#egg=file_host_uploader
+        git+https://github.com/1toldyou/FileHostUploader.git #egg=file_host_uploader
