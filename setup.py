@@ -6,7 +6,7 @@ except ModuleNotFoundError:
     from distutils.core import setup
 
 setup(
-    name="FileHostUploader",
+    name="file_host_uploader",
     version="1.0.0",
     author="1toldyou",
     url="https://github.com/1toldyou/FileHostUploader",
