@@ -34,11 +34,11 @@ if __name__ == "__main__":
     print(bucket.bucket_info)  # returned an empty dict
     result = bucket.upload_local_file(local_file="../example_file/blank_white.png", file_name="example.png")
     print(result.file_name, result.id_)
-    print(b2_api.get_file_info(result.id_).as_dict())
-    print(b2_api.get_download_url_for_fileid(result.id_))
-    print(b2_api.get_download_url_for_file_name(TOKEN["b2"]["bucket_name"], result.file_name))
+    # print(b2_api.get_file_info(result.id_).as_dict())
+    # print(b2_api.get_download_url_for_fileid(result.id_))
+    # print(b2_api.get_download_url_for_file_name(TOKEN["b2"]["bucket_name"], result.file_name))
     # print(bucket.get_download_authorization(result.file_name, 3600))
     # print(bucket.get_download_authorization(result.file_name, 86400))
-    print(bucket.get_download_authorization(result.file_name, 604800))  # maximum
+    # print(bucket.get_download_authorization(result.file_name, 604800))  # maximum
     print(make_pre_signed_url_by_filename(b2_api, TOKEN["b2"]["bucket_name"], result.file_name, 604800))
     print("finished")
