@@ -1,4 +1,4 @@
-# FileHostUploader
+# file_host_uploader
 Utilize their API for direct upload
 
 
@@ -19,7 +19,7 @@ so please don't run `pip install file_host_uploader`
 We do recommend you install this package in `venv` as it's still in beta,
 and it might want to install some dependencies that conflict with other packages
 
-        python -m pip install git+https://github.com/1toldyou/FileHostUploader.git
+        python -m pip install git+https://github.com/1toldyou/file_host_uploader.git
 abd add the following to your `requirements.txt`
 
-        git+https://github.com/1toldyou/FileHostUploader.git #egg=file_host_uploader
+        git+https://github.com/1toldyou/file_host_uploader.git #egg=file_host_uploader
