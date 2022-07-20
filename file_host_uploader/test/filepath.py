@@ -1,10 +1,10 @@
 from pathlib import Path
 
 if __name__ == "__main__":
-    p = Path('.')
+    p = Path('')
     print([x for x in p.iterdir() if x.is_dir()])
 
-    p = Path('../')
+    p = Path('../../')
     print([x for x in p.iterdir() if x.is_dir()])
 
     p = Path('../example_file/')

@@ -2,7 +2,7 @@ import json
 
 from b2sdk.v2 import InMemoryAccountInfo, B2Api
 
-from util.math_helper import clamp
+from file_host_uploader.util.math_helper import clamp
 
 
 def _make_pre_signed_url(base_url: str, authorization: str):
@@ -25,7 +25,7 @@ def make_pre_signed_url_by_filename(b2_api_client: B2Api, bucket_name: str, file
 
 
 if __name__ == "__main__":
-    TOKEN = json.load(open("../FHU.token.json", encoding="utf-8"))
+    TOKEN = json.load(open("../../FHU.token.json", encoding="utf-8"))
     info = InMemoryAccountInfo()
     b2_api = B2Api(info)
     b2_api.authorize_account("production", TOKEN["b2"]["application_key_id"], TOKEN["b2"]["application_key"])

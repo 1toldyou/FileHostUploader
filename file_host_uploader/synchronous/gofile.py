@@ -9,7 +9,7 @@ from typing import Union
 import requests
 from requests_toolbelt.multipart.encoder import MultipartEncoder
 
-from util.exception import ParameterUnfulfilled, PreUploadError, MidUploadError, UploadError
+from file_host_uploader.util.exception import ParameterUnfulfilled, PreUploadError, MidUploadError, UploadError
 
 
 def get_upload_server_name(session: requests.Session = requests.Session()):
