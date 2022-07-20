@@ -15,3 +15,14 @@
 # token
 *.token.json
 
+# venv
+myenv
+
+# built package
+build
+FileHostUploader.egg-info/dependency_links.txt
+FileHostUploader.egg-info/PKG-INFO
+FileHostUploader.egg-info/SOURCES.txt
+FileHostUploader.egg-info/top_level.txt
+FileHostUploader.egg-info/requires.txt
+

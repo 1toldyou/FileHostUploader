@@ -11,5 +11,11 @@ setup(
     author="1toldyou",
     url="https://github.com/1toldyou/FileHostUploader",
     description="all-in-one tool to upload file to various free or low-cost file sharing platform",
-    packages=["file_host_uploader"]
+    packages=["file_host_uploader"],
+    install_requires=[
+        "requests",
+        "aiohttp",
+        "python-magic-bin",
+        "b2sdk>=1.17.3,<2.0.0"
+    ]
 )
