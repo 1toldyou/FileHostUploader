@@ -1,5 +1,6 @@
 # Example File
-!file_host_uploader/example_file/blank_white.png
+!example/white.png
+*.bin
 
 # Image
 *.png
